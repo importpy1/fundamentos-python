@@ -30,7 +30,7 @@ cereja
 
 Neste exemplo, o loop for iterará sobre a lista frutas e imprimirá cada fruta.
 
-## Usando range() com for
+### Usando `range()` com for
 
 O método range() gera uma sequência de números, que pode ser usada para controlar a quantidade de iterações em um loop for.
 
