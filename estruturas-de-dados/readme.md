@@ -125,3 +125,23 @@ frutas.extend(["pera", "manga"])
 print(frutas)  # Resultado: ["maçã", "laranja", "pera", "manga"]
 ```
 
+## Tuplas
+
+Tuplas são coleções ordenadas e imutáveis de itens. Uma vez criada, uma tupla não pode ser alterada.
+
+#### Declaração
+
+Você pode declarar uma tupla usando parênteses `()` e separando os itens por vírgulas.
+
+#### Sintaxe
+
+```python
+tupla = (item1, item2, item3)
+```
+
+#### Exemplo básico
+
+```python
+coordenadas = (10, 20)
+```
+
