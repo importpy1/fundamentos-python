@@ -45,3 +45,45 @@ ativo = True
 aposentado = False
 ```
 
+## Operadores aritméticos
+
+### Para que servem os operadores aritméticos:
+
+Os operadores aritméticos são usados para realizar operações matemáticas básicas. Em Python, você pode usar os seguintes operadores:
+
+- Adição (`+`): Realiza a soma de números
+
+```python
+soma = 10 + 5 # Resultado: 15
+```
+
+- Subtração (`-`): Subtrai um número do outro
+
+```python
+diferenca = 10 - 5  # Resultado: 5 
+```
+
+- Multiplicação (`*`): Multiplica dois números
+
+```python
+produto = 10 * 5 # Resultado: 50 
+```
+
+- Divisão (`/`): Divide um número pelo outro, resultando em um número float.
+
+```python
+divisao = 10 / 5 # Resultado 2.0 
+```
+
+- Divisão inteira (`//`): Divide um número pelo outro, resultando no quociente inteiro da divisão.
+
+```python
+divisao_inteira = 10 // 3  # Resultado: 3
+```
+
+- Módulo (`%`): Retorna o resto da divisão de um número pelo outro.
+
+```python
+resto = 10 % 3 # Resultado: 1
+```
+
