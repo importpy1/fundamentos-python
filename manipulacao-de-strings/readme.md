@@ -24,7 +24,7 @@ print(tamanho)  # Resultado: 12
 
 ### `upper()`
 
-O método upper() converte todos os caracteres de uma string para maiúsculas.
+O método `upper()` converte todos os caracteres de uma string para maiúsculas.
 
 #### Sintaxe
 
@@ -42,7 +42,7 @@ print(texto_maiusculo)  # Resultado: "OLÁ, MUNDO!"
 
 ### `lower()`
 
-O método lower() converte todos os caracteres de uma string para minúsculas.
+O método `lower()` converte todos os caracteres de uma string para minúsculas.
 
 #### Sintaxe
 
@@ -60,7 +60,7 @@ print(texto_minusculo)  # Resultado: "olá, mundo!"
 
 ### `capitalize()`
 
-O método capitalize() converte o primeiro caractere da string para maiúsculo e todos os outros caracteres para minúsculo.
+O método `capitalize()` converte o primeiro caractere da string para maiúsculo e todos os outros caracteres para minúsculo.
 
 #### Sintaxe
 
@@ -80,7 +80,7 @@ print(texto_capitalizado)  # Resultado: "Olá, mundo!"
 
 ### `find()`
 
-O método find() retorna o índice da primeira ocorrência de uma substring. Se a substring não for encontrada, retorna -1.
+O método `find()` retorna o índice da primeira ocorrência de uma substring. Se a substring não for encontrada, retorna -1.
 
 #### Sintaxe
 
