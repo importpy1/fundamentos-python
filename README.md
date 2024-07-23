@@ -1,4 +1,4 @@
-# Fundamentos de Python
+# Fundamentos de Python 🐍
 
 Tudo que você precisa saber do básico de Python em um só repositório.
 
