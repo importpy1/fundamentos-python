@@ -76,3 +76,43 @@ texto_capitalizado = texto.capitalize()
 print(texto_capitalizado)  # Resultado: "Olá, mundo!"
 ```
 
+# Concatenar e fatiar strings
+
+## Concatenar Strings
+
+A concatenação de strings é o processo de unir duas ou mais strings em uma só.
+
+#### Sintaxe
+
+```python
+string1 + string2
+```
+
+#### Exemplo básico
+
+```python
+texto1 = "Olá"
+texto2 = "Mundo"
+texto_concatenado = texto1 + ", " + texto2 + "!"
+print(texto_concatenado)  # Resultado: "Olá, Mundo!"
+```
+
+## Fatiar Strings
+
+O fatiamento de strings permite extrair partes específicas de uma string.
+
+#### Sintaxe
+
+```python
+string[início:fim]
+```
+
+#### Exemplo básico
+
+```python
+texto = "Python é divertido"
+fatia = texto[0:6]
+print(fatia)  # Resultado: "Python"
+```
+
+A manipulação de strings é uma habilidade essencial para trabalhar com dados textuais em Python. Utilizando os métodos e operações descritos, você pode realizar uma ampla gama de transformações e análises em suas strings. Experimente com diferentes métodos e técnicas para aprimorar suas habilidades em programação e tornar seu trabalho com strings mais eficiente e eficaz.
