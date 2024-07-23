@@ -30,6 +30,38 @@ cereja
 
 Neste exemplo, o loop for iterará sobre a lista frutas e imprimirá cada fruta.
 
+## Usando range() com for
+
+O método range() gera uma sequência de números, que pode ser usada para controlar a quantidade de iterações em um loop for.
+
+#### Sintaxe
+
+```python
+range(início, fim, passo)
+```
+
+- início (opcional): O valor inicial da sequência. O padrão é 0.
+- fim: O valor final da sequência (não incluído na sequência).
+- passo (opcional): O valor a ser adicionado a cada iteração. O padrão é 1.
+
+#### Exemplo básico
+
+```python
+for i in range(5):
+    print(i)
+```
+
+Neste exemplo, range(5) gera uma sequência de números de 0 a 4. O loop for imprime cada número dessa sequência.
+
+#### Exemplo avançado com range()
+
+```python
+for i in range(2, 10, 2):
+    print(i)
+```
+
+Neste exemplo, range(2, 10, 2) gera uma sequência de números começando em 2, indo até 10 (não incluído) e avançando de 2 em 2. O loop for imprime os números 2, 4, 6 e 8.
+
 ### `while`
 
 O loop while é usado para repetir um bloco de código enquanto uma condição é verdadeira. O loop continuará executando enquanto a condição permanecer verdadeira.
