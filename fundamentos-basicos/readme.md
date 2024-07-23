@@ -14,4 +14,5 @@ Os tipos primitivos são os tipos de dados mais básicos em uma linguagem de pro
 
 ```python
 idade = 25
+ano_atual = 2024
 ```
