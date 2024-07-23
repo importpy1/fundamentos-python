@@ -50,6 +50,7 @@ Para começar a programar, você precisa de um ambiente de desenvolvimento confi
 4. **Configurar o Python no Visual Studio Code**:
    - Abra um novo arquivo (`Ctrl+N`) e salve-o com a extensão `.py` (por exemplo, `hello.py`).
    - Digite o seguinte código para testar:
+
      ```python
      print("Olá, Mundo!")
      ```
