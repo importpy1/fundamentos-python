@@ -76,6 +76,26 @@ texto_capitalizado = texto.capitalize()
 print(texto_capitalizado)  # Resultado: "Olá, mundo!"
 ```
 
+=====
+
+### `find()`
+
+O método find() retorna o índice da primeira ocorrência de uma substring. Se a substring não for encontrada, retorna -1.
+
+#### Sintaxe
+
+```python
+string.find(substring)
+```
+
+#### Exemplo básico
+
+```python
+texto = "Olá, Mundo!"
+indice = texto.find("Mundo")
+print(indice)  # Resultado: 6
+```
+
 # Concatenar e fatiar strings
 
 ## Concatenar Strings
