@@ -57,11 +57,13 @@ Os operadores aritméticos são usados para realizar operações matemáticas b�
 soma = 10 + 5 # Resultado: 15
 ```
 
+
 - Subtração (`-`): Subtrai um número do outro
 
 ```python
 diferenca = 10 - 5  # Resultado: 5 
 ```
+
 
 - Multiplicação (`*`): Multiplica dois números
 
@@ -69,17 +71,20 @@ diferenca = 10 - 5  # Resultado: 5
 produto = 10 * 5 # Resultado: 50 
 ```
 
+
 - Divisão (`/`): Divide um número pelo outro, resultando em um número float.
 
 ```python
 divisao = 10 / 5 # Resultado 2.0 
 ```
 
+
 - Divisão inteira (`//`): Divide um número pelo outro, resultando no quociente inteiro da divisão.
 
 ```python
 divisao_inteira = 10 // 3  # Resultado: 3
 ```
+
 
 - Módulo (`%`): Retorna o resto da divisão de um número pelo outro.
 
