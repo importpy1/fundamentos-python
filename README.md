@@ -43,4 +43,12 @@ Tudo que você precisa saber do básico de Python em um só repositório.
    - Uso de bibliotecas padrão (math, random, etc.)
   
 10. Módulo bônus
-   - Listão de métodos para manipulação de strings
+   - Listão de métodos para manipulação de strings\
+
+
+Obrigado por explorar este repositório dedicado aos fundamentos de Python! Aqui você encontrará uma base sólida para começar sua jornada na programação com Python. Se você está apenas começando ou deseja revisar conceitos essenciais, este repositório foi criado para fornecer uma visão clara e prática dos principais aspectos da linguagem.
+
+Não hesite em explorar cada seção, praticar os exemplos e se aprofundar nos tópicos que mais lhe interessam. A prática é fundamental para o aprendizado, então, experimente os códigos, modifique-os e crie seus próprios projetos!
+
+Se você tiver dúvidas, sugestões ou quiser contribuir com melhorias, fique à vontade para abrir uma *issue* ou enviar um *pull request*. Boa programação e divirta-se explorando o mundo de Python! 🐍🚀
+
