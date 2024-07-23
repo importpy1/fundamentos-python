@@ -14,4 +14,4 @@ Você pode declarar uma lista usando colchetes `[]` e separando os itens por ví
 
 ```python
 lista = [item1, item2, item3]
-
+```
