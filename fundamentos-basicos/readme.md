@@ -10,28 +10,28 @@ Variáveis são como caixas onde você pode armazenar diferentes tipos de dados.
 
 Os tipos primitivos são os tipos de dados mais básicos em uma linguagem de programação. Em Python, os principais tipos primitivos são:
 
-- Inteiros(`int`): Números inteiros sem parte decimal.
+- Inteiros (`int`): Números inteiros sem parte decimal.
 
 ```python
 idade = 25
 ano_atual = 2024
 ```
 
-- Floats(`float`): Números com parte decimal.
+- Floats (`float`): Números com parte decimal.
 
 ```python
 altura = 1.81
 preco = 20.99
 ```
 
-- Strings(`string`): Sequências de caracteres, usadas para representar texto.
+- Strings (`string`): Sequências de caracteres, usadas para representar texto.
 
 ```python
 nome = "Cléber"
 texto = "Isso aqui é uma string"
 ```
 
-- Booleanos(`bool`): Valores lógicos que podem ser True (verdadeiro) ou False (falso).
+- Booleanos (`bool`): Valores lógicos que podem ser True (verdadeiro) ou False (falso).
 
 ```python
 ativo = True
