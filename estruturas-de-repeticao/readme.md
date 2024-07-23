@@ -89,10 +89,35 @@ while contador < 5:
 2
 3
 4
-
 ```
 
 Neste exemplo, o loop while continuará executando enquanto a variável contador for menor que 5. A cada iteração, contador é incrementado em 1 até que a condição se torne falsa.
+
+### Loop `while True`
+
+O loop while True é um tipo especial de loop while que executa indefinidamente até que uma condição interna de parada (geralmente um comando break) seja encontrada.
+
+#### Sintaxe
+
+```python
+while True:
+    # bloco de código
+    if condição_de_parada:
+        break
+````
+
+### Exemplo básico
+
+```python
+contador = 0
+while True:
+    print(contador)
+    contador += 1
+    if contador >= 5:
+        break
+```
+
+Neste exemplo, o loop while True continua a executar o bloco de código, incrementando o contador até que o contador atinja o valor de 5. Quando isso acontece, o comando break interrompe o loop.
 
 # Break e Continue
 
