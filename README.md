@@ -15,27 +15,29 @@ Tudo que você precisa saber do básico de Python em um só repositório.
 
 3. Estruturas de Controle
    - Condicionais (if, else, elif)
-   - Operadores Lógicos (and, or, not)
+   
+4. Operadores lógicos
+   - Principais operadores (and, or, not)
 
-4. Estruturas de Repetição
+5. Estruturas de Repetição
    - Loops (for, while)
    - Break e Continue.
 
-5. Manipulação de Strings
+6. Manipulação de Strings
    - Métodos de strings (length, upper, lower, etc.)
    - Concatenar e Fatiar strings.
 
-6. Estruturas de Dados
+7. Estruturas de Dados
    - Listas (declaração, indexação, métodos básicos)
    - Tuplas (imutabilidade, uso básico)
    - Dicionários (pares chave-valor, métodos básicos)
    - Conjuntos (operações de conjuntos)
 
-7. Funções
+8. Funções
    - Declaração e chamada de funções
    - Argumentos e parâmetros
    - Funções com retorno
 
-8. Módulos e Bibliotecas
+9. Módulos e Bibliotecas
    - Importando módulos
    - Uso de bibliotecas padrão (math, random, etc.)
