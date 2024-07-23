@@ -14,7 +14,7 @@ O método `len()` retorna o número total de caracteres em uma string.
 len(string)
 ```
 
-### Exemplo básico
+#### Exemplo básico
 
 ```python
 texto = "Olá, Mundo!"
@@ -32,7 +32,7 @@ O método upper() converte todos os caracteres de uma string para maiúsculas.
 string.upper()
 ```
 
-### Exemplo básico
+#### Exemplo básico
 
 ```python
 texto = "olá, mundo!"
@@ -50,7 +50,7 @@ O método lower() converte todos os caracteres de uma string para minúsculas.
 string.lower()
 ```
 
-### Exemplo básico
+#### Exemplo básico
 
 ```python
 texto = "OLÁ, MUNDO!"
@@ -68,7 +68,7 @@ O método capitalize() converte o primeiro caractere da string para maiúsculo e
 string.capitalize()
 ```
 
-### Exemplo básico
+#### Exemplo básico
 
 ```python
 texto = "olá, mundo!"
