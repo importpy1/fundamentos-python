@@ -9,7 +9,7 @@ Variáveis são como caixas onde você pode armazenar diferentes tipos de dados.
 ```python
 numero = 10
 
-# Acima, `numero` é nosso variável e 10 é o valor atribuído a ela
+# Acima, `numero` é nossa variável e 10 é o valor atribuído a ela
 ```
 
 
