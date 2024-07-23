@@ -3,7 +3,7 @@
 
 ## O que é Programação?
 
-Programação é o processo de criar um conjunto de instruções que dizem a um computador como realizar uma tarefa. Essas instruções são escritas em uma linguagem de programação, que é uma linguagem formal composta por um conjunto de regras que produzem vários tipos de saída. Programar é uma habilidade essencial no mundo moderno, usada em tudo, desde a criação de websites e aplicativos móveis até a análise de grandes volumes de dados e o controle de sistemas automatizados.
+Programação é basicamente dizer ao computador o que fazer, escrevendo instruções que ele possa entender. Essas instruções são feitas em uma linguagem de programação, que tem suas próprias regras e jeitos de funcionar. Aprender a programar é super útil hoje em dia. Você pode usar a programação para criar sites, fazer aplicativos para celular, analisar dados enormes ou até controlar sistemas automáticos.
 
 ### Por que aprender a programar?
 
