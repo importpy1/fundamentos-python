@@ -73,3 +73,55 @@ frutas.remove("banana")
 print(frutas)  # Resultado: ["maçã", "laranja", "uva"]
 ```
 
+### `pop(indice)`
+
+Remove e retorna o item no índice especificado.
+
+#### Sintaxe
+
+```python
+item = lista.pop(indice)
+```
+
+#### Exemplo básico
+
+```python
+ultima_fruta = frutas.pop()
+print(ultima_fruta)  # Resultado: "uva"
+print(frutas)        # Resultado: ["maçã", "laranja"]
+```
+
+### `sort()`
+
+Ordena os itens da lista
+
+#### Sintaxe
+
+```python
+lista.sort()
+```
+
+#### Exemplo básico
+
+```python
+frutas.sort()
+print(frutas)  # Resultado: ["laranja", "maçã", "manga", "pera"]
+```
+
+### `extend(outra_lista)`
+
+Adiciona todos os itens de outra lista à lista atual.
+
+#### Sintaxe
+
+```python
+lista.extend(outra_lista)
+```
+
+#### Exemplo básico
+
+```python
+frutas.extend(["pera", "manga"])
+print(frutas)  # Resultado: ["maçã", "laranja", "pera", "manga"]
+```
+
