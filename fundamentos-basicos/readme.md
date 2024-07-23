@@ -47,7 +47,7 @@ aposentado = False
 
 ## Operadores aritméticos
 
-### Para que servem os operadores aritméticos:
+### Para que servem os operadores aritméticos
 
 Os operadores aritméticos são usados para realizar operações matemáticas básicas. Em Python, você pode usar os seguintes operadores:
 
