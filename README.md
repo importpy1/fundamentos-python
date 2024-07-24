@@ -42,7 +42,7 @@ Tudo que você precisa saber do básico de Python em um só repositório.
    - Uso de bibliotecas padrão (math, random, etc.)
   
 10. Módulo bônus
-   - Listão de métodos para manipulação de strings\
+   - Listão de métodos para manipulação de strings
 
 ---
 
