@@ -44,7 +44,7 @@ print(sqrt(25))  # Saída: 5.0
 
 ### Importando com um 'apelido'
 
-Você pode dar um nome alternativo (alias) ao módulo importado para simplificar seu uso.
+Você pode dar um nome alternativo ao módulo importado para simplificar seu uso.
 
 #### Sintaxe
 
