@@ -103,13 +103,13 @@ Fornece funções matemáticas.
 
 #### Exemplo básico
 
-´´´python
+```python
 import math
 
 print(math.pi)        # Saída: 3.141592653589793
 print(math.e)         # Saída: 2.718281828459045
 print(math.factorial(5))  # Saída: 120
-´´´ 
+``` 
 
 ### ´random´
 
