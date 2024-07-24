@@ -1,6 +1,6 @@
 # Estruturas de Dados
 
-As estruturas de dados em Python permitem armazenar e manipular diferentes tipos de dados de forma eficiente. Neste documento, abordaremos quatro principais estruturas de dados: Listas, Tuplas, Dicionários e Conjuntos. Cada uma delas tem suas próprias características e métodos úteis para o desenvolvimento em Python.
+As estruturas de dados em Python permitem armazenar e manipular diferentes tipos de dados de forma eficiente. Neste documento, abordaremos quatro principais estruturas de dados: Listas, Tuplas e Dicionários. Cada uma delas tem suas próprias características e métodos úteis para o desenvolvimento em Python.
 
 ## Listas
 
@@ -397,7 +397,7 @@ O método `items()` retorna uma visualização dos pares chave-valor no dicioná
 dicionario.items()
 ```
 
-### Exemplo básico
+#### Exemplo básico
 
 ```python
 pessoa = {
@@ -409,3 +409,114 @@ itens = pessoa.items()
 print(itens)  # Resultado: dict_items([('nome', 'João'), ('idade', 25), ('cidade', 'São Paulo')])
 ````
 
+### `get()`
+
+O método `get()` retorna o valor para uma chave especificada. Se a chave não existir, retorna um valor padrão (None, por padrão).
+
+#### Sintaxe
+
+```python
+dicionario.get('chave', valor_padrao)
+```
+
+#### Exemplo básico
+
+```python
+pessoa = {
+    'nome': 'João',
+    'idade': 25
+}
+idade = pessoa.get('idade', 0)        # Resultado: 25
+cidade = pessoa.get('cidade', 'N/A')  # Resultado: 'N/A'
+```
+
+### `update()`
+
+O método `update()` atualiza o dicionário com os pares chave-valor de outro dicionário.
+
+#### Sintaxe
+
+```python
+dicionario.update(outro_dicionario)
+```
+
+#### Exemplo básico
+
+```python
+pessoa = {
+    'nome': 'João',
+    'idade': 25
+}
+pessoa.update({'cidade': 'São Paulo', 'idade': 26})
+print(pessoa)  # Resultado: {'nome': 'João', 'idade': 26, 'cidade': 'São Paulo'}
+```
+
+### `clear()`
+
+O método `clear()` remove todos os itens do dicionário.
+
+#### Sintaxe
+
+```python
+dicionario.clear()
+```
+
+#### Exemplo básico 
+
+```python
+pessoa = {
+    'nome': 'João',
+    'idade': 25,
+    'cidade': 'São Paulo'
+}
+pessoa.clear()
+print(pessoa)  # Resultado: {}
+```
+
+### Iterando sobre um dicionário
+
+#### Iterando sobre `chaves`
+
+```python
+pessoa = {
+    'nome': 'João',
+    'idade': 25,
+    'cidade': 'São Paulo'
+}
+for chave in pessoa.keys():
+    print(chave)
+```
+
+#### Iterando sobre `valores`
+
+```python
+pessoa = {
+    'nome': 'João',
+    'idade': 25,
+    'cidade': 'São Paulo'
+}
+for valor in pessoa.values():
+    print(valor)
+```
+
+#### Iterando sobre `pares chave-valor`
+
+```python
+pessoa = {
+    'nome': 'João',
+    'idade': 25,
+    'cidade': 'São Paulo'
+}
+for chave, valor in pessoa.items():
+    print(f"{chave}: {valor}")
+```
+
+## Conclusão
+
+Estruturas de dados são fundamentais em Python, permitindo armazenar e manipular conjuntos de dados de maneira eficiente. Listas, tuplas, dicionários e conjuntos cada um possui características e usos específicos:
+
+- **Listas** são mutáveis e ideais para coleções ordenadas.
+- **Tuplas** são imutáveis e úteis para armazenar dados constantes.
+- **Dicionários** utilizam pares chave-valor para associações rápidas.
+
+Compreender e utilizar essas estruturas de dados de forma eficaz pode melhorar significativamente a eficiência e a clareza do seu código. A prática com cada uma delas permitirá escolher a estrutura mais adequada para cada situação, resultando em soluções mais elegantes e performáticas.
