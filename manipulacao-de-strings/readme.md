@@ -76,8 +76,6 @@ texto_capitalizado = texto.capitalize()
 print(texto_capitalizado)  # Resultado: "Olá, mundo!"
 ```
 
-=====
-
 ### `find()`
 
 O método `find()` retorna o índice da primeira ocorrência de uma substring. Se a substring não for encontrada, retorna -1.
@@ -94,6 +92,96 @@ string.find(substring)
 texto = "Olá, Mundo!"
 indice = texto.find("Mundo")
 print(indice)  # Resultado: 6
+```
+
+### `rfind`
+
+O método `rfind()` retorna o índice da última ocorrência de uma substring. Se a substring não for encontrada, retorna -1.
+
+#### Sintaxe
+
+```python
+string.rfind(substring)
+```
+
+#### Exemplo básico
+
+```python
+texto = "Olá, Mundo! Mundo é grande!"
+indice = texto.rfind("Mundo")
+print(indice)  # Resultado: 15
+```
+
+### `split`
+
+O método `split()` divide a string em uma lista de substrings, usando um delimitador especificado.
+
+#### Sintaxe
+
+```python
+string.split([delimitador])
+```
+
+#### Exemplo básico
+
+```python
+texto = "Olá, Mundo! Como vai?"
+partes = texto.split(" ")
+print(partes)  # Resultado: ['Olá,', 'Mundo!', 'Como', 'vai?']
+```
+
+### `join`
+
+O método join() une uma lista de strings em uma única string, usando um delimitador especificado.
+
+#### Sintaxe
+
+```python
+delimitador.join(lista_de_strings)
+```
+
+#### Exemplo básico
+
+```python
+lista = ["Olá", "Mundo", "Como", "vai?"]
+texto_unido = " ".join(lista)
+print(texto_unido)  # Resultado: "Olá Mundo Como vai?"
+```
+
+### `startswith()`
+
+O método `startswith()` retorna True se a string começar com a substring especificada. Caso contrário, retorna False.
+
+#### Sintaxe
+
+```python
+string.startswith(substring)
+```
+
+#### Exemplo básico
+
+```python
+texto = "Python é divertido"
+print(texto.startswith("Python"))  # Resultado: True
+print(texto.startswith("java"))    # Resultado: False
+```
+
+### `endswith()`
+
+O método endswith() retorna True se a string terminar com a substring especificada. Caso contrário, retorna False.
+
+#### Sintaxe
+
+```python
+string.endswith(substring)
+```
+
+#### Exemplo básico
+
+```python
+texto = "Python é divertido"
+print(texto.endswith("divertido"))  # Resultado: True
+print(texto.endswith("Python"))     # Resultado: False
 ```
 
 # Concatenar e fatiar strings
