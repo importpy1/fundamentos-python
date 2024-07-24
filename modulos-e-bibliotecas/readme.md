@@ -111,7 +111,7 @@ print(math.e)         # Saída: 2.718281828459045
 print(math.factorial(5))  # Saída: 120
 ``` 
 
-### ´random´
+### `random`
 
 Fornece funções para geração de números aleatórios.
 
