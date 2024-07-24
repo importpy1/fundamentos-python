@@ -31,7 +31,6 @@ Tudo que você precisa saber do básico de Python em um só repositório.
    - Listas (declaração, indexação, métodos básicos)
    - Tuplas (imutabilidade, uso básico)
    - Dicionários (pares chave-valor, métodos básicos)
-   - Conjuntos (operações de conjuntos)
 
 8. Funções
    - Declaração e chamada de funções
