@@ -247,7 +247,165 @@ print(menor)  # Resultado: 1
 print(maior)  # Resultado: 5
 ```
 
+## Dicionários
 
+Dicionários são estruturas de dados que armazenam pares chave-valor. Eles são úteis para armazenar dados que precisam ser associados e permitem acesso rápido aos valores correspondentes às suas chaves.
 
+#### Declaração
 
+Dicionários são declarados usando chaves `{}` e pares chave-valor são separados por dois pontos `:`.
+
+#### Sintaxe
+
+```python
+dicionario = {
+    'chave1': 'valor1',
+    'chave2': 'valor2',
+    'chave3': 'valor3'
+}
+```
+
+#### Exemplo básico
+
+```python
+pessoa = {
+    'nome': 'João',
+    'idade': 25,
+    'cidade': 'São Paulo'
+}
+```
+
+### Acessando valores
+
+Os valores em um dicionário podem ser acessados usando suas chaves.
+
+#### Sintaxe
+
+```python
+valor = dicionario['chave']
+```
+
+#### Exemplo básico
+
+```python
+pessoa = {
+    'nome': 'João',
+    'idade': 25,
+    'cidade': 'São Paulo'
+}
+nome = pessoa['nome']  # Resultado: 'João'
+```
+
+### Adicionando e atualizando itens
+
+Itens podem ser adicionados ou atualizados em um dicionário usando a sintaxe de atribuição.
+
+#### Sintaxe
+
+```python
+dicionario['nova_chave'] = 'novo_valor'
+dicionario['chave_existente'] = 'valor_atualizado'
+```
+
+#### Exemplo básico
+
+```python
+pessoa = {
+    'nome': 'João',
+    'idade': 25
+}
+pessoa['cidade'] = 'São Paulo'  # Adicionando nova chave-valor
+pessoa['idade'] = 26            # Atualizando valor existente
+```
+
+### Removendo itens
+
+Itens podem ser removidos de um dicionário usando o método `pop()` ou a palavra-chave `del`.
+
+#### Sintaxe
+
+```python
+dicionario.pop('chave')
+del dicionario['chave']
+```
+
+#### Exemplo básico
+
+```python
+pessoa = {
+    'nome': 'João',
+    'idade': 25,
+    'cidade': 'São Paulo'
+}
+pessoa.pop('idade')    # Remove a chave 'idade'
+del pessoa['cidade']   # Remove a chave 'cidade'
+```
+
+### Métodos básicos
+
+### `keys()`
+
+O método `keys()` retorna uma visualização das chaves no dicionário.
+
+#### Sintaxe
+
+```python
+dicionario.keys()
+```
+
+#### Exemplo básico
+
+```python
+pessoa = {
+    'nome': 'João',
+    'idade': 25,
+    'cidade': 'São Paulo'
+}
+chaves = pessoa.keys()
+print(chaves)  # Resultado: dict_keys(['nome', 'idade', 'cidade'])
+```
+
+### `values()`
+
+O método `values()` retorna uma visualização dos valores no dicionário.
+
+#### Sintaxe
+
+```python
+dicionario.values()
+```
+
+#### Exemplo básico
+
+```python
+pessoa = {
+    'nome': 'João',
+    'idade': 25,
+    'cidade': 'São Paulo'
+}
+valores = pessoa.values()
+print(valores)  # Resultado: dict_values(['João', 25, 'São Paulo'])
+```
+
+### `items()`
+
+O método `items()` retorna uma visualização dos pares chave-valor no dicionário.
+
+#### Sintaxe
+
+```python
+dicionario.items()
+```
+
+### Exemplo básico
+
+```python
+pessoa = {
+    'nome': 'João',
+    'idade': 25,
+    'cidade': 'São Paulo'
+}
+itens = pessoa.items()
+print(itens)  # Resultado: dict_items([('nome', 'João'), ('idade', 25), ('cidade', 'São Paulo')])
+````
 
