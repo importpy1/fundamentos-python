@@ -15,3 +15,20 @@ def nome_da_funcao(parametros):
     # corpo da função
     pass
 ```
+
+### Exemplo básico
+
+```python
+def saudacao():
+    print("Olá, mundo!")
+```
+
+### Chamada de Função
+
+Para chamar uma função, basta usar seu nome seguido de parênteses.
+
+```python
+saudacao()  # Saída: Olá, mundo!
+```
+
+
