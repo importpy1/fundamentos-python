@@ -41,9 +41,9 @@ Tudo que você precisa saber do básico de Python em um só repositório.
 
 9. Tratamento de erros
    - O que é Tratamento de Erros?
-   - Blocos `try` e `except`
-   - Bloco `else`
-   - Bloco `finally`
+   - Blocos try e except
+   - Bloco else
+   - Bloco finally
    - Levantando Exceções
    
 10. Módulos e Bibliotecas
