@@ -49,9 +49,6 @@ Tudo que você precisa saber do básico de Python em um só repositório.
 10. Módulos e Bibliotecas
    - Importando módulos
    - Uso de bibliotecas padrão (math, random, etc.)
-  
-11. Módulo bônus
-   - Listão de métodos para manipulação de strings
 
 ---
 
