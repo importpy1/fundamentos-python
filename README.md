@@ -36,6 +36,8 @@ Tudo que você precisa saber do básico de Python em um só repositório.
    - Declaração e chamada de funções
    - Argumentos e parâmetros
    - Funções com retorno
+   - Funções lambda
+   - Documentação de funções
 
 9. Módulos e Bibliotecas
    - Importando módulos
