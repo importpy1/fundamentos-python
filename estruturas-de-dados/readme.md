@@ -168,6 +168,84 @@ x = coordenadas[0]  # Resultado: 10
 y = coordenadas[1]  # Resultado: 20
 ```
 
+### Métodos básicos
+
+Embora tuplas sejam imutáveis, existem algumas operações e métodos que podem ser usados com elas.
+
+### `count()`
+
+O método `count()` retorna o número de vezes que um valor especificado aparece na tupla.
+
+#### Sintaxe
+
+```python
+tupla.count(item)
+```
+
+#### Exemplo básico
+
+```python
+numeros = (1, 2, 2, 3, 4, 2, 5)
+contagem = numeros.count(2)
+print(contagem)  # Resultado: 3
+```
+
+### `index()`
+
+O método `index()` retorna o índice da primeira ocorrência de um valor especificado.
+
+#### Sintaxe
+
+```python
+tupla.index(item)
+```
+
+#### Exemplo básico
+
+```python
+frutas = ("maçã", "banana", "laranja")
+indice = frutas.index("banana")
+print(indice)  # Resultado: 1
+```
+
+### `sum()`
+
+A função `sum()` retorna a soma dos itens em uma tupla de números.
+
+#### Sintaxe
+
+```python
+sum(tupla)
+```
+
+#### Exemplo
+
+```python
+numeros = (1, 2, 3, 4, 5)
+soma = sum(numeros)
+print(soma)  # Resultado: 15
+```
+
+### `min()` e `max()`
+
+As funções min() e max() retornam o menor e o maior item em uma tupla, respectivamente.
+
+#### Sintaxe
+
+```python
+min(tupla)
+max(tupla)
+```
+
+#### Exemplo básico
+
+```python
+numeros = (1, 2, 3, 4, 5)
+menor = min(numeros)
+maior = max(numeros)
+print(menor)  # Resultado: 1
+print(maior)  # Resultado: 5
+```
 
 
 
