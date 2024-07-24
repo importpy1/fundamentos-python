@@ -144,4 +144,32 @@ tupla = (item1, item2, item3)
 ```python
 coordenadas = (10, 20)
 ```
+### Características das Tuplas
+
+- Imutabilidade: Uma vez que uma tupla é criada, seus valores não podem ser alterados.
+- Ordenadas: Os itens em uma tupla têm uma ordem definida e essa ordem não muda.
+- Heterogêneas: Tuplas podem conter itens de diferentes tipos de dados.
+
+### Acessando tuplas
+
+Os itens em uma tupla podem ser acessados usando indexação, semelhante a listas.
+
+#### Sintaxe
+
+```python
+item = tupla[indice]
+```
+
+#### Exemplo básico
+
+```python
+coordenadas = (10, 20)
+x = coordenadas[0]  # Resultado: 10
+y = coordenadas[1]  # Resultado: 20
+```
+
+
+
+
+
 
