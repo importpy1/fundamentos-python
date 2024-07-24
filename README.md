@@ -39,11 +39,18 @@ Tudo que você precisa saber do básico de Python em um só repositório.
    - Funções lambda
    - Documentação de funções
 
-9. Módulos e Bibliotecas
+9. Tratamento de erros
+   - O que é Tratamento de Erros?
+   - Blocos `try` e `except`
+   - Bloco `else`
+   - Bloco `finally`
+   - Levantando Exceções
+   
+10. Módulos e Bibliotecas
    - Importando módulos
    - Uso de bibliotecas padrão (math, random, etc.)
   
-10. Módulo bônus
+11. Módulo bônus
    - Listão de métodos para manipulação de strings
 
 ---
