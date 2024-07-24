@@ -54,11 +54,11 @@ import nome_do_modulo as apelido
 
 #### Exemplo básico
 
-´´´python
+```python
 import math as m
 
 print(m.sqrt(36))  # Saída: 6.0
-´´´
+```
 
 ## O que são Bibliotecas
 
