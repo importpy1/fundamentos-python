@@ -94,7 +94,7 @@ resto = 10 % 3 # Resultado: 1
 
 ## Entrada e Saída (input e print)
 
-### Entrada (`input`)
+#### Entrada (`input`)
 
 A função `input()` é usada para receber dados do usuário. Ela sempre retorna uma string, então você pode precisar converter a string para outro tipo de dado, se necessário.
 
@@ -103,7 +103,7 @@ nome = input("Qual é o seu nome? ")
 idade = int(input("Quantos anos você tem? "))
 ```
 
-### Saída (`print()`)
+#### Saída (`print()`)
 
 A função `print()` é usada para exibir dados na tela.
 
