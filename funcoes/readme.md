@@ -154,6 +154,8 @@ print(soma(3, 4))  # Saída: 7
 
 ## Documentação de funções
 
+Funções podem (e devem) ser documentadas utilizando docstrings. Docstrings são strings que descrevem a função e são colocadas logo após a declaração da função.
+
 #### Exemplo básico
 
 ```python
