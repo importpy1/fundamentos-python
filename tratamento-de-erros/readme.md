@@ -84,21 +84,6 @@ finally:
     pass
 ```
 
-```python
-try:
-    # Tentar dividir dois números
-    resultado = 10 / 2
-except ZeroDivisionError:
-    # Código que será executado se ocorrer uma divisão por zero
-    print("Não é possível dividir por zero.")
-else:
-    # Código que será executado se nenhuma exceção ocorrer
-    print("O resultado da divisão é:", resultado)
-finally:
-    # Código que será sempre executado
-    print("Bloco finally executado.")
-```
-
 #### Exemplo Básico
 
 ```python
